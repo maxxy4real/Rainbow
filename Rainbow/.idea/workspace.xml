@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01646f7f-ef05-4e65-8eb6-56917dcdb20c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/drivers/chromedriver" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Helper/testBase.java" afterPath="$PROJECT_DIR$/src/main/java/Helper/testBase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Login.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/Login.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Login.feature" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" />
       <change beforePath="$PROJECT_DIR$/target/classes/Helper/testBase.class" afterPath="$PROJECT_DIR$/target/classes/Helper/testBase.class" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Login-feature.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Login-feature.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Login.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Login.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Register-feature.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Register-feature.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Register.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/Register.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/failures-overview.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/failures-overview.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/feature-overview.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/feature-overview.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/step-overview.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/step-overview.html" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/tag-overview.html" afterPath="$PROJECT_DIR$/target/site/cucumber-reports/cucumber-html-reports/tag-overview.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Steps.RunTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/Steps.RunTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Steps.RunTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Steps.RunTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Login.feature" afterPath="$PROJECT_DIR$/target/test-classes/Login.feature" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Register.feature" afterPath="$PROJECT_DIR$/target/test-classes/Register.feature" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Login.class" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Login.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,21 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RunTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RunTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -84,8 +63,8 @@
       <file leaf-file-name="testBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Helper/testBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            <state relative-caret-position="126">
+              <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -147,8 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
-    <option name="y" value="54" />
+    <option name="x" value="184" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="834" />
   </component>
@@ -201,7 +180,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rainbow" type="b2602c69:ProjectViewProjectNode" />
@@ -219,6 +198,14 @@
             <path>
               <item name="Rainbow" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Rainbow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,21 +213,6 @@
               <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rainbow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rainbow" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,6 +231,8 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\Maxwell\JavaModule\Rainbow\src\test\resource" />
       <recent name="C:\Users\Maxwell\JavaModule\Rainbow\src\test\java" />
       <recent name="C:\Users\Maxwell\JavaModule\Rainbow\src\main\java" />
@@ -645,39 +619,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2019.01.19 at 11h 08m 31s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.01.19 at 11h 10m 37s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.01.19 at 11h 11m 07s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.01.19 at 11h 15m 48s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunTest - 2019.01.19 at 13h 38m 06s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RunTest - 2019.01.19 at 13h 43m 03s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_add_item_to_bag - 2019.01.08 at 14h 14m 19s.xml">
-      <configuration name="Scenario: As a user I want to add item to bag" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RunTest - 2019.01.19 at 14h 48m 02s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_add_item_to_bag - 2019.01.08 at 14h 18m 01s.xml">
-      <configuration name="Scenario: As a user I want to add item to bag" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RunTest - 2019.01.19 at 15h 07m 17s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_add_item_to_bag - 2019.01.08 at 14h 19m 49s.xml">
-      <configuration name="Scenario: As a user I want to add item to bag" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RunTest - 2019.01.19 at 15h 11m 28s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_add_item_to_bag - 2019.01.08 at 14h 23m 29s.xml">
-      <configuration name="Scenario: As a user I want to add item to bag" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RunTest - 2019.01.19 at 15h 11m 36s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.01.19 at 15h 12m 13s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.01.19 at 15h 13m 23s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.01.19 at 15h 18m 33s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.01.19 at 15h 21m 44s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="54" width="1440" height="834" extended-state="0" />
+    <frame x="184" y="23" width="1440" height="834" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -687,17 +662,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44248986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44248986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25439784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25439784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16595136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39783493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -979,30 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/testBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/Search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1045,10 +996,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/testBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>

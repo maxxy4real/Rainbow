@@ -38,7 +38,7 @@ public class testBase {
 			}
 
 			else if(CONFIG.getProperty("browser").equals("chrome")){
-				System.setProperty("webdriver.chrome.driver", "/Users/maxwellnwajei/Documents/Automation/Rainbow/src/main/java/drivers/chromedriver");
+				System.setProperty("webdriver.chrome.driver", "/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/main/java/drivers/chromedriver");
 				driver = new ChromeDriver();
 			}
 
