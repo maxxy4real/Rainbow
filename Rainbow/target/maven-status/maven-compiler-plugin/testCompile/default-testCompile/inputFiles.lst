@@ -1,6 +1,8 @@
-/Users/maxwellnwajei/Documents/Automation/Rainbow/src/test/java/Steps/Register.java
-/Users/maxwellnwajei/Documents/Automation/Rainbow/src/test/java/Steps/Common.java
-/Users/maxwellnwajei/Documents/Automation/Rainbow/src/test/java/pages/RegisterPage.java
-/Users/maxwellnwajei/Documents/Automation/Rainbow/src/test/java/pages/SigninPage.java
-/Users/maxwellnwajei/Documents/Automation/Rainbow/src/test/java/Steps/RunTest.java
-/Users/maxwellnwajei/Documents/Automation/Rainbow/src/test/java/Steps/Login.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/Steps/Login.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/Steps/Search.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/pages/RegisterPage.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/pages/SigninPage.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/Steps/RunTest.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/pages/SearchPage.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/Steps/Common.java
+/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow/src/test/java/Steps/Register.java

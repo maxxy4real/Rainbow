@@ -9,12 +9,15 @@ Feature: Login User
     When I enter email "<email>" details
     And I enter password "<passw>" details
     And I click Signin button
-    Then I verify that I am logged in
+    Then I verify that "<user>" is logged in
+    Then I verify that "<user>" is logged in
     And I log out successfully
 
     Examples:
-      | email                | passw  |
-      | maxtest227@gmail.com | Today1 |
+      | email                  | passw   | user         |
+      | maxtest227@gmail.com   | Today1  | Mike Smith   |
+      | davin.riches@gmail.com | Today01 | Davin Riches |
+
 
   @Login
   Scenario Outline: As a user I want to see error message when I Login incorrectly

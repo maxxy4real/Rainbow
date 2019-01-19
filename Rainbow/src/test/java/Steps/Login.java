@@ -35,6 +35,11 @@ public class Login extends testBase{
         Assert.assertEquals("Mike Smith", driver.findElement(By.cssSelector("span")).getText());
     }
 
+    @Then("^I verify that \"([^\"]*)\" is logged in$")
+    public void iVerifyThatIsLoggedIn(String user) throws Throwable {
+        Assert.assertEquals(user, driver.findElement(By.cssSelector("span")).getText());
+    }
+
     @When("^I click Signin button$")
     public void i_click_Signin_button() throws Throwable {
         SigninPage signinpage = PageFactory.initElements(driver, SigninPage.class);

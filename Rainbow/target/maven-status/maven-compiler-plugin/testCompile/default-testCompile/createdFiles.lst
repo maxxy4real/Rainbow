@@ -4,3 +4,5 @@ Steps/Common.class
 Steps/Login.class
 pages/RegisterPage.class
 pages/SigninPage.class
+Steps/Search.class
+pages/SearchPage.class

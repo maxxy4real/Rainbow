@@ -1,14 +1,6 @@
 [
   {
     "line": 1,
-    "name": "Add To Bag",
-    "description": "",
-    "id": "add-to-bag",
-    "keyword": "Feature",
-    "uri": "AddToBag.feature"
-  },
-  {
-    "line": 1,
     "elements": [
       {
         "line": 3,
@@ -19,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4966091416,
+              "duration": 5333209824,
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1245613745,
+              "duration": 1195104346,
               "status": "passed"
             },
             "line": 5,
@@ -47,16 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 2158638200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 103914,
+              "duration": 2166494853,
               "status": "passed"
             },
             "match": {
@@ -65,7 +48,16 @@
           },
           {
             "result": {
-              "duration": 106770,
+              "duration": 41899141,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 581258,
               "status": "passed"
             },
             "match": {
@@ -74,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 92368,
+              "duration": 5186026,
               "status": "passed"
             },
             "match": {
@@ -82,14 +74,14 @@
             }
           }
         ],
-        "line": 17,
+        "line": 18,
         "name": "As a user I want to Login successfully",
         "description": "",
         "id": "login-user;as-a-user-i-want-to-login-successfully;;2",
         "after": [
           {
             "result": {
-              "duration": 143777,
+              "duration": 209589,
               "status": "passed"
             },
             "match": {
@@ -102,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 308826701,
+              "duration": 265127167,
               "status": "passed"
             },
             "line": 9,
@@ -123,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 204796413,
+              "duration": 91857429,
               "status": "passed"
             },
             "line": 10,
@@ -144,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 1188787671,
+              "duration": 1094144928,
               "status": "passed"
             },
             "line": 11,
@@ -156,22 +148,52 @@
           },
           {
             "result": {
-              "duration": 46644895,
+              "duration": 34367504,
               "status": "passed"
             },
             "line": 12,
-            "name": "I verify that I am logged in",
+            "name": "I verify that \"Mike Smith\" is logged in",
             "match": {
-              "location": "Login.i_verify_that_I_am_logged_in()"
+              "arguments": [
+                {
+                  "val": "Mike Smith",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.iVerifyThatIsLoggedIn(String)"
             },
+            "matchedColumns": [
+              2
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1339026410,
+              "duration": 17101647,
               "status": "passed"
             },
             "line": 13,
+            "name": "I verify that \"Mike Smith\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mike Smith",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.iVerifyThatIsLoggedIn(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1399502428,
+              "status": "passed"
+            },
+            "line": 14,
             "name": "I log out successfully",
             "match": {
               "location": "Login.i_log_out_successfully()"
@@ -195,7 +217,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2835154826,
+              "duration": 2854282450,
               "status": "passed"
             },
             "line": 4,
@@ -207,7 +229,7 @@
           },
           {
             "result": {
-              "duration": 1047454524,
+              "duration": 1027538279,
               "status": "passed"
             },
             "line": 5,
@@ -223,16 +245,7 @@
         "before": [
           {
             "result": {
-              "duration": 242129,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 184281,
+              "duration": 54233,
               "status": "passed"
             },
             "match": {
@@ -241,7 +254,16 @@
           },
           {
             "result": {
-              "duration": 199164,
+              "duration": 157976,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 129511,
               "status": "passed"
             },
             "match": {
@@ -250,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 170176,
+              "duration": 84038,
               "status": "passed"
             },
             "match": {
@@ -258,14 +280,14 @@
             }
           }
         ],
-        "line": 28,
-        "name": "As a user I want to see error message when I Login incorrectly",
+        "line": 19,
+        "name": "As a user I want to Login successfully",
         "description": "",
-        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;2",
+        "id": "login-user;as-a-user-i-want-to-login-successfully;;3",
         "after": [
           {
             "result": {
-              "duration": 40822,
+              "duration": 188729,
               "status": "passed"
             },
             "match": {
@@ -278,10 +300,216 @@
         "steps": [
           {
             "result": {
-              "duration": 133030965,
+              "duration": 145893983,
               "status": "passed"
             },
-            "line": 21,
+            "line": 9,
+            "name": "I enter email \"davin.riches@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davin.riches@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72403321,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"Today01\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today01",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1118140526,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30740259,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify that \"Davin Riches\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Davin Riches",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.iVerifyThatIsLoggedIn(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16724466,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify that \"Davin Riches\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Davin Riches",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.iVerifyThatIsLoggedIn(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1494119534,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I log out successfully",
+            "match": {
+              "location": "Login.i_log_out_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3051066941,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1042702194,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 48105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46272,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45129,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "As a user I want to see error message when I Login incorrectly",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 42977,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 130648452,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "I enter email \"maxtest964@gmail.com\" details",
             "match": {
               "arguments": [
@@ -299,10 +527,10 @@
           },
           {
             "result": {
-              "duration": 61508310,
+              "duration": 44899468,
               "status": "passed"
             },
-            "line": 22,
+            "line": 25,
             "name": "I enter password \"\" details",
             "match": {
               "arguments": [
@@ -320,10 +548,10 @@
           },
           {
             "result": {
-              "duration": 750920420,
+              "duration": 733754646,
               "status": "passed"
             },
-            "line": 23,
+            "line": 26,
             "name": "I click Signin button",
             "match": {
               "location": "Login.i_click_Signin_button()"
@@ -332,10 +560,10 @@
           },
           {
             "result": {
-              "duration": 42842987,
+              "duration": 30537927,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
             "name": "I see an error \"Password is required.\" message details",
             "match": {
               "arguments": [
@@ -354,7 +582,7 @@
         ],
         "tags": [
           {
-            "line": 19,
+            "line": 22,
             "name": "@Login"
           }
         ]
@@ -368,7 +596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3338615403,
+              "duration": 3222858733,
               "status": "passed"
             },
             "line": 4,
@@ -380,7 +608,7 @@
           },
           {
             "result": {
-              "duration": 6316405034,
+              "duration": 1046189887,
               "status": "passed"
             },
             "line": 5,
@@ -396,16 +624,7 @@
         "before": [
           {
             "result": {
-              "duration": 58081,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 46808,
+              "duration": 71440,
               "status": "passed"
             },
             "match": {
@@ -414,7 +633,16 @@
           },
           {
             "result": {
-              "duration": 55512,
+              "duration": 319886,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 265734,
               "status": "passed"
             },
             "match": {
@@ -423,7 +651,7 @@
           },
           {
             "result": {
-              "duration": 50401,
+              "duration": 476067,
               "status": "passed"
             },
             "match": {
@@ -431,14 +659,14 @@
             }
           }
         ],
-        "line": 29,
+        "line": 32,
         "name": "As a user I want to see error message when I Login incorrectly",
         "description": "",
         "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;3",
         "after": [
           {
             "result": {
-              "duration": 43542,
+              "duration": 93992,
               "status": "passed"
             },
             "match": {
@@ -451,10 +679,10 @@
         "steps": [
           {
             "result": {
-              "duration": 41009291,
+              "duration": 55744080,
               "status": "passed"
             },
-            "line": 21,
+            "line": 24,
             "name": "I enter email \"\" details",
             "match": {
               "arguments": [
@@ -472,10 +700,10 @@
           },
           {
             "result": {
-              "duration": 63270982,
+              "duration": 65423676,
               "status": "passed"
             },
-            "line": 22,
+            "line": 25,
             "name": "I enter password \"Today1\" details",
             "match": {
               "arguments": [
@@ -493,10 +721,10 @@
           },
           {
             "result": {
-              "duration": 6244495505,
+              "duration": 747442145,
               "status": "passed"
             },
-            "line": 23,
+            "line": 26,
             "name": "I click Signin button",
             "match": {
               "location": "Login.i_click_Signin_button()"
@@ -505,10 +733,10 @@
           },
           {
             "result": {
-              "duration": 35255158,
+              "duration": 44044169,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
             "name": "I see an error \"An email address required.\" message details",
             "match": {
               "arguments": [
@@ -527,7 +755,7 @@
         ],
         "tags": [
           {
-            "line": 19,
+            "line": 22,
             "name": "@Login"
           }
         ]
@@ -541,7 +769,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2660320056,
+              "duration": 2955144913,
               "status": "passed"
             },
             "line": 4,
@@ -553,7 +781,7 @@
           },
           {
             "result": {
-              "duration": 6648220912,
+              "duration": 1344271313,
               "status": "passed"
             },
             "line": 5,
@@ -569,16 +797,7 @@
         "before": [
           {
             "result": {
-              "duration": 34938,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 46377,
+              "duration": 29046,
               "status": "passed"
             },
             "match": {
@@ -587,7 +806,16 @@
           },
           {
             "result": {
-              "duration": 47974,
+              "duration": 26125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 36417,
               "status": "passed"
             },
             "match": {
@@ -596,7 +824,7 @@
           },
           {
             "result": {
-              "duration": 32555,
+              "duration": 27567,
               "status": "passed"
             },
             "match": {
@@ -604,14 +832,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 33,
         "name": "As a user I want to see error message when I Login incorrectly",
         "description": "",
         "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;4",
         "after": [
           {
             "result": {
-              "duration": 47683,
+              "duration": 45211,
               "status": "passed"
             },
             "match": {
@@ -624,10 +852,10 @@
         "steps": [
           {
             "result": {
-              "duration": 94284395,
+              "duration": 128259329,
               "status": "passed"
             },
-            "line": 21,
+            "line": 24,
             "name": "I enter email \"maxtest964@gmail.com\" details",
             "match": {
               "arguments": [
@@ -645,10 +873,10 @@
           },
           {
             "result": {
-              "duration": 62379011,
+              "duration": 58784017,
               "status": "passed"
             },
-            "line": 22,
+            "line": 25,
             "name": "I enter password \"xxxxxx\" details",
             "match": {
               "arguments": [
@@ -666,10 +894,10 @@
           },
           {
             "result": {
-              "duration": 6037831045,
+              "duration": 712093802,
               "status": "passed"
             },
-            "line": 23,
+            "line": 26,
             "name": "I click Signin button",
             "match": {
               "location": "Login.i_click_Signin_button()"
@@ -678,10 +906,10 @@
           },
           {
             "result": {
-              "duration": 32927166,
+              "duration": 25213759,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
             "name": "I see an error \"Authentication failed.\" message details",
             "match": {
               "arguments": [
@@ -700,7 +928,7 @@
         ],
         "tags": [
           {
-            "line": 19,
+            "line": 22,
             "name": "@Login"
           }
         ]
@@ -714,7 +942,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2684529122,
+              "duration": 3152885955,
               "status": "passed"
             },
             "line": 4,
@@ -726,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 6413266412,
+              "duration": 1040573042,
               "status": "passed"
             },
             "line": 5,
@@ -742,16 +970,7 @@
         "before": [
           {
             "result": {
-              "duration": 33325,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 58851,
+              "duration": 28413,
               "status": "passed"
             },
             "match": {
@@ -760,7 +979,16 @@
           },
           {
             "result": {
-              "duration": 30900,
+              "duration": 26560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24125,
               "status": "passed"
             },
             "match": {
@@ -769,7 +997,7 @@
           },
           {
             "result": {
-              "duration": 34106,
+              "duration": 23893,
               "status": "passed"
             },
             "match": {
@@ -777,14 +1005,14 @@
             }
           }
         ],
-        "line": 31,
+        "line": 34,
         "name": "As a user I want to see error message when I Login incorrectly",
         "description": "",
         "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;5",
         "after": [
           {
             "result": {
-              "duration": 40454,
+              "duration": 43294,
               "status": "passed"
             },
             "match": {
@@ -797,10 +1025,10 @@
         "steps": [
           {
             "result": {
-              "duration": 95618590,
+              "duration": 122118681,
               "status": "passed"
             },
-            "line": 21,
+            "line": 24,
             "name": "I enter email \"xxxxxxxxxx@gmail.com\" details",
             "match": {
               "arguments": [
@@ -818,10 +1046,10 @@
           },
           {
             "result": {
-              "duration": 58710244,
+              "duration": 58915382,
               "status": "passed"
             },
-            "line": 22,
+            "line": 25,
             "name": "I enter password \"Today1\" details",
             "match": {
               "arguments": [
@@ -839,10 +1067,10 @@
           },
           {
             "result": {
-              "duration": 6099682517,
+              "duration": 737804269,
               "status": "passed"
             },
-            "line": 23,
+            "line": 26,
             "name": "I click Signin button",
             "match": {
               "location": "Login.i_click_Signin_button()"
@@ -851,10 +1079,10 @@
           },
           {
             "result": {
-              "duration": 27333596,
+              "duration": 27037766,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
             "name": "I see an error \"Authentication failed.\" message details",
             "match": {
               "arguments": [
@@ -873,7 +1101,7 @@
         ],
         "tags": [
           {
-            "line": 19,
+            "line": 22,
             "name": "@Login"
           }
         ]
@@ -887,7 +1115,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2567616219,
+              "duration": 3030213594,
               "status": "passed"
             },
             "line": 4,
@@ -899,7 +1127,7 @@
           },
           {
             "result": {
-              "duration": 6801426382,
+              "duration": 1238746777,
               "status": "passed"
             },
             "line": 5,
@@ -915,16 +1143,7 @@
         "before": [
           {
             "result": {
-              "duration": 33689,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 29168,
+              "duration": 27450,
               "status": "passed"
             },
             "match": {
@@ -933,7 +1152,16 @@
           },
           {
             "result": {
-              "duration": 28690,
+              "duration": 25745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 27023,
               "status": "passed"
             },
             "match": {
@@ -942,7 +1170,7 @@
           },
           {
             "result": {
-              "duration": 28420,
+              "duration": 23839,
               "status": "passed"
             },
             "match": {
@@ -950,14 +1178,14 @@
             }
           }
         ],
-        "line": 32,
+        "line": 35,
         "name": "As a user I want to see error message when I Login incorrectly",
         "description": "",
         "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;6",
         "after": [
           {
             "result": {
-              "duration": 35336,
+              "duration": 43979,
               "status": "passed"
             },
             "match": {
@@ -970,10 +1198,10 @@
         "steps": [
           {
             "result": {
-              "duration": 40707202,
+              "duration": 61614124,
               "status": "passed"
             },
-            "line": 21,
+            "line": 24,
             "name": "I enter email \"\" details",
             "match": {
               "arguments": [
@@ -991,10 +1219,10 @@
           },
           {
             "result": {
-              "duration": 43812953,
+              "duration": 41366416,
               "status": "passed"
             },
-            "line": 22,
+            "line": 25,
             "name": "I enter password \"\" details",
             "match": {
               "arguments": [
@@ -1012,10 +1240,10 @@
           },
           {
             "result": {
-              "duration": 5862360332,
+              "duration": 817170619,
               "status": "passed"
             },
-            "line": 23,
+            "line": 26,
             "name": "I click Signin button",
             "match": {
               "location": "Login.i_click_Signin_button()"
@@ -1024,10 +1252,10 @@
           },
           {
             "result": {
-              "duration": 27899798,
+              "duration": 24706458,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
             "name": "I see an error \"An email address required.\" message details",
             "match": {
               "arguments": [
@@ -1046,7 +1274,7 @@
         ],
         "tags": [
           {
-            "line": 19,
+            "line": 22,
             "name": "@Login"
           }
         ]
@@ -1070,7 +1298,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2710590964,
+              "duration": 3039213659,
               "status": "passed"
             },
             "line": 4,
@@ -1082,7 +1310,7 @@
           },
           {
             "result": {
-              "duration": 6273010742,
+              "duration": 1026488491,
               "status": "passed"
             },
             "line": 5,
@@ -1094,7 +1322,7 @@
           },
           {
             "result": {
-              "duration": 89018563,
+              "duration": 121276512,
               "status": "passed"
             },
             "line": 6,
@@ -1106,7 +1334,7 @@
           },
           {
             "result": {
-              "duration": 9075432780,
+              "duration": 4090723886,
               "status": "passed"
             },
             "line": 7,
@@ -1122,16 +1350,7 @@
         "before": [
           {
             "result": {
-              "duration": 27755,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 27433,
+              "duration": 35640,
               "status": "passed"
             },
             "match": {
@@ -1140,7 +1359,16 @@
           },
           {
             "result": {
-              "duration": 29189,
+              "duration": 27623,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24962,
               "status": "passed"
             },
             "match": {
@@ -1149,7 +1377,7 @@
           },
           {
             "result": {
-              "duration": 45157,
+              "duration": 25982,
               "status": "passed"
             },
             "match": {
@@ -1164,7 +1392,7 @@
         "after": [
           {
             "result": {
-              "duration": 32761,
+              "duration": 70645,
               "status": "passed"
             },
             "match": {
@@ -1177,7 +1405,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5507719437,
+              "duration": 70947971,
               "status": "passed"
             },
             "line": 11,
@@ -1189,7 +1417,7 @@
           },
           {
             "result": {
-              "duration": 63254039,
+              "duration": 97371704,
               "status": "passed"
             },
             "line": 12,
@@ -1207,7 +1435,7 @@
           },
           {
             "result": {
-              "duration": 61337309,
+              "duration": 69062103,
               "status": "passed"
             },
             "line": 13,
@@ -1225,7 +1453,7 @@
           },
           {
             "result": {
-              "duration": 21735036,
+              "duration": 19715490,
               "status": "passed"
             },
             "line": 14,
@@ -1237,7 +1465,7 @@
           },
           {
             "result": {
-              "duration": 57497171,
+              "duration": 68310280,
               "status": "passed"
             },
             "line": 15,
@@ -1255,7 +1483,7 @@
           },
           {
             "result": {
-              "duration": 4254070929,
+              "duration": 4247492716,
               "status": "passed"
             },
             "line": 16,
@@ -1281,7 +1509,7 @@
           },
           {
             "result": {
-              "duration": 420969009,
+              "duration": 531457881,
               "status": "passed"
             },
             "line": 17,
@@ -1323,7 +1551,7 @@
           },
           {
             "result": {
-              "duration": 70219116,
+              "duration": 80201552,
               "status": "passed"
             },
             "line": 18,
@@ -1341,7 +1569,7 @@
           },
           {
             "result": {
-              "duration": 84357210,
+              "duration": 97433783,
               "status": "passed"
             },
             "line": 19,
@@ -1359,7 +1587,7 @@
           },
           {
             "result": {
-              "duration": 85571219,
+              "duration": 88527556,
               "status": "passed"
             },
             "line": 20,
@@ -1377,7 +1605,7 @@
           },
           {
             "result": {
-              "duration": 6201332160,
+              "duration": 1787055435,
               "status": "passed"
             },
             "line": 21,
@@ -1389,7 +1617,7 @@
           },
           {
             "result": {
-              "duration": 26095001,
+              "duration": 31988600,
               "status": "passed"
             },
             "line": 22,
@@ -1401,7 +1629,7 @@
           },
           {
             "result": {
-              "duration": 6732086104,
+              "duration": 1794033865,
               "status": "passed"
             },
             "line": 23,
@@ -1438,7 +1666,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2856776876,
+              "duration": 3175539914,
               "status": "passed"
             },
             "line": 4,
@@ -1454,16 +1682,7 @@
         "before": [
           {
             "result": {
-              "duration": 35707,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Common.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 25406,
+              "duration": 58584,
               "status": "passed"
             },
             "match": {
@@ -1472,7 +1691,16 @@
           },
           {
             "result": {
-              "duration": 27544,
+              "duration": 40397,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 39111,
               "status": "passed"
             },
             "match": {
@@ -1481,7 +1709,7 @@
           },
           {
             "result": {
-              "duration": 24147,
+              "duration": 34131,
               "status": "passed"
             },
             "match": {
@@ -1496,7 +1724,7 @@
         "after": [
           {
             "result": {
-              "duration": 29418,
+              "duration": 69369,
               "status": "passed"
             },
             "match": {
@@ -1509,7 +1737,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7705515562,
+              "duration": 2192114522,
               "status": "passed"
             },
             "line": 8,
@@ -1527,7 +1755,7 @@
           },
           {
             "result": {
-              "duration": 33321256,
+              "duration": 35844788,
               "status": "passed"
             },
             "line": 9,
@@ -1545,7 +1773,7 @@
           },
           {
             "result": {
-              "duration": 78832646,
+              "duration": 76385455,
               "status": "passed"
             },
             "line": 10,

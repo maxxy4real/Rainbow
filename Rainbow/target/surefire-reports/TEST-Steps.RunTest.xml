@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Steps.RunTest" time="136.49" tests="61" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Steps.RunTest" time="67.136" tests="76" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.151-b12"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/maxwellnwajei/Documents/Automation/Rainbow"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/maxwellnwajei/Documents/Automation/Rainbow"/>
+    <property name="user.dir" value="/Users/maxwellnwajei/Documents/Automation/eCommerce/Rainbow"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,21 +63,31 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on the Homepage" classname="| maxtest227@gmail.com | Today1 |" time="0.002"/>
-  <testcase name="And I click sigin button" classname="| maxtest227@gmail.com | Today1 |" time="0"/>
-  <testcase name="When I enter email &quot;maxtest227@gmail.com&quot; details" classname="| maxtest227@gmail.com | Today1 |" time="0"/>
-  <testcase name="And I enter password &quot;Today1&quot; details" classname="| maxtest227@gmail.com | Today1 |" time="0"/>
-  <testcase name="And I click Signin button" classname="| maxtest227@gmail.com | Today1 |" time="0"/>
-  <testcase name="Then I verify that I am logged in" classname="| maxtest227@gmail.com | Today1 |" time="0"/>
-  <testcase name="And I log out successfully" classname="| maxtest227@gmail.com | Today1 |" time="0"/>
-  <testcase name="| maxtest227@gmail.com | Today1 |" classname="| maxtest227@gmail.com | Today1 |" time="0.001"/>
+  <testcase name="Given I am on the Homepage" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0.007"/>
+  <testcase name="And I click sigin button" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="When I enter email &quot;maxtest227@gmail.com&quot; details" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="And I enter password &quot;Today1&quot; details" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="And I click Signin button" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="Then I verify that &quot;Mike Smith&quot; is logged in" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="Then I verify that &quot;Mike Smith&quot; is logged in" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="And I log out successfully" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0"/>
+  <testcase name="| maxtest227@gmail.com | Today1 | Mike Smith |" classname="| maxtest227@gmail.com | Today1 | Mike Smith |" time="0.001"/>
+  <testcase name="Given I am on the Homepage" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="And I click sigin button" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="When I enter email &quot;davin.riches@gmail.com&quot; details" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="And I enter password &quot;Today01&quot; details" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="And I click Signin button" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="Then I verify that &quot;Davin Riches&quot; is logged in" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="Then I verify that &quot;Davin Riches&quot; is logged in" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="And I log out successfully" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0"/>
+  <testcase name="| davin.riches@gmail.com | Today01 | Davin Riches |" classname="| davin.riches@gmail.com | Today01 | Davin Riches |" time="0.001"/>
   <testcase name="Given I am on the Homepage" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="And I click sigin button" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="When I enter email &quot;maxtest964@gmail.com&quot; details" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="And I enter password &quot;&quot; details" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="And I click Signin button" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="Then I see an error &quot;Password is required.&quot; message details" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
-  <testcase name="| maxtest964@gmail.com |  | Password is required. |" classname="| maxtest964@gmail.com |  | Password is required. |" time="0.001"/>
+  <testcase name="| maxtest964@gmail.com |  | Password is required. |" classname="| maxtest964@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="Given I am on the Homepage" classname="|  | Today1 | An email address required. |" time="0"/>
   <testcase name="And I click sigin button" classname="|  | Today1 | An email address required. |" time="0"/>
   <testcase name="When I enter email &quot;&quot; details" classname="|  | Today1 | An email address required. |" time="0"/>
@@ -87,13 +97,13 @@
   <testcase name="|  | Today1 | An email address required. |" classname="|  | Today1 | An email address required. |" time="0"/>
   <testcase name="Given I am on the Homepage" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0"/>
   <testcase name="And I click sigin button" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0"/>
-  <testcase name="When I enter email &quot;maxtest964@gmail.com&quot; details" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0.001"/>
+  <testcase name="When I enter email &quot;maxtest964@gmail.com&quot; details" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0"/>
   <testcase name="And I enter password &quot;xxxxxx&quot; details" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0"/>
   <testcase name="And I click Signin button" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0"/>
   <testcase name="Then I see an error &quot;Authentication failed.&quot; message details" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0"/>
   <testcase name="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" classname="| maxtest964@gmail.com | xxxxxx | Authentication failed. |" time="0.001"/>
   <testcase name="Given I am on the Homepage" classname="| xxxxxxxxxx@gmail.com | Today1 | Authentication failed. |" time="0"/>
-  <testcase name="And I click sigin button" classname="| xxxxxxxxxx@gmail.com | Today1 | Authentication failed. |" time="0.001"/>
+  <testcase name="And I click sigin button" classname="| xxxxxxxxxx@gmail.com | Today1 | Authentication failed. |" time="0"/>
   <testcase name="When I enter email &quot;xxxxxxxxxx@gmail.com&quot; details" classname="| xxxxxxxxxx@gmail.com | Today1 | Authentication failed. |" time="0"/>
   <testcase name="And I enter password &quot;Today1&quot; details" classname="| xxxxxxxxxx@gmail.com | Today1 | Authentication failed. |" time="0"/>
   <testcase name="And I click Signin button" classname="| xxxxxxxxxx@gmail.com | Today1 | Authentication failed. |" time="0"/>
@@ -107,15 +117,15 @@
   <testcase name="Then I see an error &quot;An email address required.&quot; message details" classname="|  |  | An email address required. |" time="0"/>
   <testcase name="|  |  | An email address required. |" classname="|  |  | An email address required. |" time="0"/>
   <testcase name="Given I am on the Homepage" classname="Scenario: As a new user I want to create an account" time="0"/>
-  <testcase name="And I click sigin button" classname="Scenario: As a new user I want to create an account" time="0.001"/>
+  <testcase name="And I click sigin button" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I enter email address in the address field" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I click create new account button" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I click male gender" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I enter first name &quot;Mike&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
-  <testcase name="And I enter last name &quot;Smith&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
+  <testcase name="And I enter last name &quot;Smith&quot;" classname="Scenario: As a new user I want to create an account" time="0.001"/>
   <testcase name="And I check that email address in pre-populated" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I enter password &quot;Today01&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
-  <testcase name="And I enter DOB Day &quot;1&quot; Month &quot;July&quot; Year &quot;1986&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
+  <testcase name="And I enter DOB Day &quot;1&quot; Month &quot;July&quot; Year &quot;1986&quot;" classname="Scenario: As a new user I want to create an account" time="0.001"/>
   <testcase name="And I enter Address details &quot;Max Ltd&quot; address &quot;1&quot; line &quot;Park Road&quot; city &quot;Chicago&quot; state &quot;Illinois&quot; zip &quot;24378&quot; country &quot;United States&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I enter Additional Information &quot;This is just a test&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I enter Home Phone number &quot;0207 8876 920&quot;" classname="Scenario: As a new user I want to create an account" time="0"/>
@@ -123,5 +133,10 @@
   <testcase name="When I click the Register button" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="Then I am registered and logged in automatically" classname="Scenario: As a new user I want to create an account" time="0"/>
   <testcase name="And I log out successfully" classname="Scenario: As a new user I want to create an account" time="0"/>
-  <testcase name="Scenario: As a new user I want to create an account" classname="Scenario: As a new user I want to create an account" time="0.001"/>
+  <testcase name="Scenario: As a new user I want to create an account" classname="Scenario: As a new user I want to create an account" time="0.003"/>
+  <testcase name="Given I am on the Homepage" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="When I search for &quot;shirt&quot; in the search input box" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="Then I see &quot;1 result has been found.&quot; product listing page" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="And I see search description &quot;Faded Short Sleeve T-shirts&quot; price &quot;$16.51&quot; and item &quot;In stock&quot;" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="Scenario: As a user I want to search for an item" classname="Scenario: As a user I want to search for an item" time="0"/>
 </testsuite>
