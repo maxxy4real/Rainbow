@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Rainbow</td>
+                          <td>1</td>
+                        <td>07 Jan 2019, 21:21</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">Common.i_am_on_the_Homepage()</td>
+                <td>7</td>
+                <td class="duration" data-value="83465239242">1m 23s 465ms</td>
+                <td class="duration" data-value="11923605606">11s 923ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Common.i_click_create_new_account_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="4078307129">4s 078ms</td>
+                <td class="duration" data-value="4078307129">4s 078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Common.i_click_sigin_button()</td>
+                <td>7</td>
+                <td class="duration" data-value="13870741229">13s 870ms</td>
+                <td class="duration" data-value="1981534461">1s 981ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Common.i_enter_email_address_in_the_address_field()</td>
+                <td>1</td>
+                <td class="duration" data-value="125658796">125ms</td>
+                <td class="duration" data-value="125658796">125ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Common.setup()</td>
+                <td>7</td>
+                <td class="duration" data-value="1926123221">1s 926ms</td>
+                <td class="duration" data-value="275160460">275ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_click_Signin_button()</td>
+                <td>6</td>
+                <td class="duration" data-value="8053124829">8s 053ms</td>
+                <td class="duration" data-value="1342187471">1s 342ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_enter_email_details(String)</td>
+                <td>6</td>
+                <td class="duration" data-value="681833225">681ms</td>
+                <td class="duration" data-value="113638870">113ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_enter_password_details(String)</td>
+                <td>6</td>
+                <td class="duration" data-value="383411857">383ms</td>
+                <td class="duration" data-value="63901976">063ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_log_out_successfully()</td>
+                <td>2</td>
+                <td class="duration" data-value="10383438499">10s 383ms</td>
+                <td class="duration" data-value="5191719249">5s 191ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_see_an_error_message_details(String)</td>
+                <td>5</td>
+                <td class="duration" data-value="148956235">148ms</td>
+                <td class="duration" data-value="29791247">029ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_verify_that_I_am_logged_in()</td>
+                <td>1</td>
+                <td class="duration" data-value="34341749">034ms</td>
+                <td class="duration" data-value="34341749">034ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.setup()</td>
+                <td>7</td>
+                <td class="duration" data-value="336559">000ms</td>
+                <td class="duration" data-value="48079">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_am_registered_and_logged_in_automatically()</td>
+                <td>1</td>
+                <td class="duration" data-value="31619626">031ms</td>
+                <td class="duration" data-value="31619626">031ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_check_that_email_address_in_pre_populated()</td>
+                <td>1</td>
+                <td class="duration" data-value="31829104">031ms</td>
+                <td class="duration" data-value="31829104">031ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_click_male_gender()</td>
+                <td>1</td>
+                <td class="duration" data-value="4583425700">4s 583ms</td>
+                <td class="duration" data-value="4583425700">4s 583ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_click_the_Register_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="3248953048">3s 248ms</td>
+                <td class="duration" data-value="3248953048">3s 248ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_Additional_Information(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="83804620">083ms</td>
+                <td class="duration" data-value="83804620">083ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_Address_details_address_line_city_state_zip_country(String,String,String,String,String,String,String)</td>
+                <td>1</td>
+                <td class="duration" data-value="489254067">489ms</td>
+                <td class="duration" data-value="489254067">489ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_DOB_Day_Month_Year(String,String,String)</td>
+                <td>1</td>
+                <td class="duration" data-value="4264052283">4s 264ms</td>
+                <td class="duration" data-value="4264052283">4s 264ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_Home_Phone_number(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="97478532">097ms</td>
+                <td class="duration" data-value="97478532">097ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_Mobile_Phone_number(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="89126595">089ms</td>
+                <td class="duration" data-value="89126595">089ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_first_name(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="95431789">095ms</td>
+                <td class="duration" data-value="95431789">095ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_last_name(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="104649707">104ms</td>
+                <td class="duration" data-value="104649707">104ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.i_enter_password(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="78587316">078ms</td>
+                <td class="duration" data-value="78587316">078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.setup()</td>
+                <td>7</td>
+                <td class="duration" data-value="321593">000ms</td>
+                <td class="duration" data-value="45941">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Register.teardown(Scenario)</td>
+                <td>7</td>
+                <td class="duration" data-value="738378">000ms</td>
+                <td class="duration" data-value="105482">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>26</td>
+              <td>82</td>
+              <td class="duration">2m 16s 350ms</td>
+              <td class="duration">1s 662ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

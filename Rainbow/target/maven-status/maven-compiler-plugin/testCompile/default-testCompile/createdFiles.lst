@@ -1,0 +1,6 @@
+Steps/RunTest.class
+Steps/Register.class
+Steps/Common.class
+Steps/Login.class
+pages/RegisterPage.class
+pages/SigninPage.class

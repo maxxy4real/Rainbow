@@ -1,0 +1,1587 @@
+[
+  {
+    "line": 1,
+    "name": "Add To Bag",
+    "description": "",
+    "id": "add-to-bag",
+    "keyword": "Feature",
+    "uri": "AddToBag.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4966091416,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1245613745,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2158638200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 103914,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106770,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 92368,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "As a user I want to Login successfully",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-login-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 143777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 308826701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter email \"maxtest227@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maxtest227@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204796413,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"Today1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today1",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1188787671,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46644895,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify that I am logged in",
+            "match": {
+              "location": "Login.i_verify_that_I_am_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1339026410,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I log out successfully",
+            "match": {
+              "location": "Login.i_log_out_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2835154826,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1047454524,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 242129,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 184281,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 170176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "As a user I want to see error message when I Login incorrectly",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 40822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133030965,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"maxtest964@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maxtest964@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61508310,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 750920420,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42842987,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see an error \"Password is required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3338615403,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6316405034,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55512,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "As a user I want to see error message when I Login incorrectly",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 43542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41009291,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63270982,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"Today1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today1",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6244495505,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35255158,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see an error \"An email address required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2660320056,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6648220912,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47974,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "As a user I want to see error message when I Login incorrectly",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 47683,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 94284395,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"maxtest964@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maxtest964@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62379011,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"xxxxxx\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxx",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6037831045,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32927166,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2684529122,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6413266412,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33325,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 30900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "As a user I want to see error message when I Login incorrectly",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 40454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95618590,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"xxxxxxxxxx@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxx@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58710244,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"Today1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today1",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6099682517,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27333596,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2567616219,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6801426382,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 28690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 28420,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "As a user I want to see error message when I Login incorrectly",
+        "description": "",
+        "id": "login-user;as-a-user-i-want-to-see-error-message-when-i-login-incorrectly;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 35336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40707202,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.i_enter_email_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43812953,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.i_enter_password_details(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5862360332,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Signin button",
+            "match": {
+              "location": "Login.i_click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27899798,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see an error \"An email address required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login User",
+    "description": "",
+    "id": "login-user",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2710590964,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6273010742,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click sigin button",
+            "match": {
+              "location": "Common.i_click_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89018563,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter email address in the address field",
+            "match": {
+              "location": "Common.i_enter_email_address_in_the_address_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9075432780,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click create new account button",
+            "match": {
+              "location": "Common.i_click_create_new_account_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 27433,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29189,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45157,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "As a new user I want to create an account",
+        "description": "",
+        "id": "register-user;as-a-new-user-i-want-to-create-an-account",
+        "after": [
+          {
+            "result": {
+              "duration": 32761,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5507719437,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click male gender",
+            "match": {
+              "location": "Register.i_click_male_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63254039,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter first name \"Mike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mike",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.i_enter_first_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61337309,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter last name \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Smith",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.i_enter_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21735036,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I check that email address in pre-populated",
+            "match": {
+              "location": "Register.i_check_that_email_address_in_pre_populated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57497171,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter password \"Today01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today01",
+                  "offset": 18
+                }
+              ],
+              "location": "Register.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4254070929,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter DOB Day \"1\" Month \"July\" Year \"1986\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 17
+                },
+                {
+                  "val": "July",
+                  "offset": 27
+                },
+                {
+                  "val": "1986",
+                  "offset": 39
+                }
+              ],
+              "location": "Register.i_enter_DOB_Day_Month_Year(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420969009,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter Address details \"Max Ltd\" address \"1\" line \"Park Road\" city \"Chicago\" state \"Illinois\" zip \"24378\" country \"United States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Max Ltd",
+                  "offset": 25
+                },
+                {
+                  "val": "1",
+                  "offset": 43
+                },
+                {
+                  "val": "Park Road",
+                  "offset": 52
+                },
+                {
+                  "val": "Chicago",
+                  "offset": 69
+                },
+                {
+                  "val": "Illinois",
+                  "offset": 85
+                },
+                {
+                  "val": "24378",
+                  "offset": 100
+                },
+                {
+                  "val": "United States",
+                  "offset": 116
+                }
+              ],
+              "location": "Register.i_enter_Address_details_address_line_city_state_zip_country(String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70219116,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter Additional Information \"This is just a test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is just a test",
+                  "offset": 32
+                }
+              ],
+              "location": "Register.i_enter_Additional_Information(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84357210,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Home Phone number \"0207 8876 920\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0207 8876 920",
+                  "offset": 27
+                }
+              ],
+              "location": "Register.i_enter_Home_Phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85571219,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter Mobile Phone number \"0794 8769 251\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0794 8769 251",
+                  "offset": 29
+                }
+              ],
+              "location": "Register.i_enter_Mobile_Phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6201332160,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the Register button",
+            "match": {
+              "location": "Register.i_click_the_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26095001,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am registered and logged in automatically",
+            "match": {
+              "location": "Register.i_am_registered_and_logged_in_automatically()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6732086104,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I log out successfully",
+            "match": {
+              "location": "Login.i_log_out_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Register User",
+    "description": "",
+    "id": "register-user",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2856776876,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "Common.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 25406,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Search.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 27544,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24147,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "As a user I want to search for an item",
+        "description": "",
+        "id": "search-for-items;as-a-user-i-want-to-search-for-an-item",
+        "after": [
+          {
+            "result": {
+              "duration": 29418,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Register.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7705515562,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"shirt\" in the search input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shirt",
+                  "offset": 14
+                }
+              ],
+              "location": "Search.i_search_for_in_the_search_input_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33321256,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see \"1 result has been found.\" product listing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 result has been found.",
+                  "offset": 7
+                }
+              ],
+              "location": "Search.i_see_product_listing_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78832646,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see search description \"Faded Short Sleeve T-shirts\" price \"$16.51\" and item \"In stock\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faded Short Sleeve T-shirts",
+                  "offset": 26
+                },
+                {
+                  "val": "$16.51",
+                  "offset": 62
+                },
+                {
+                  "val": "In stock",
+                  "offset": 80
+                }
+              ],
+              "location": "Search.i_see_search_description_price_and_item(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Search for Items",
+    "description": "",
+    "id": "search-for-items",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
